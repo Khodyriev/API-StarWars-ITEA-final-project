@@ -1,0 +1,135 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  background-image: url('../media/teahub.io-star-wars-live-wallpaper-247478.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+header {
+  background-color: rgba(34, 34, 34, 0.4);
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  padding-left: 64px;
+}
+
+h2 {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  gap: 54px;
+  padding: 20px;
+}
+
+.characters-list {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.character-details {
+  display: none;
+  width: 48%;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 25px;
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+li.characters-list {
+  height: 100px;
+  width: 100px;
+  border: solid 3px #008cba;
+  background-color: #008bba3f;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  padding: 12px;
+  line-height: 28px;
+}
+
+li.characters-list:hover {
+  border: solid 3px #008cba;
+  box-shadow: 5px 10px 18px #70c8e6;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 0 30px;
+}
+
+button {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #008cba;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #96ccdf;
+  color: rgb(167, 167, 167);
+}
+
+.character-details {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  justify-content: space-between;
+  padding: 60px 24px 0 24px;
+}
+
+#back-to-list {
+  align-self: flex-end;
+  margin-top: 48px;
+}
+
+.character-table {
+  width: 100%;
+  border: solid 3px #008cba;
+  background-color: #008bbaa8;
+  border-radius: 16px;
+  padding: 12px;
+}
+
+.character-table th,
+.character-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.character-table th {
+  background-color: #008cba;
+  color: #fff;
+}

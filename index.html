@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Star Wars Characters</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script async src="./scripts/script_2.0.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Star Wars Characters</h1>
+    </header>
+    <main>
+      <div class="characters-list">
+        <h2>Characters</h2>
+        <ul id="characterList"></ul>
+        <div class="pagination">
+          <button id="prev-page" disabled>Prev</button>
+          <p id="pageCount"></p>
+          <button id="next-page">Next</button>
+        </div>
+      </div>
+      <div class="character-details" style="display: none">
+        <table class="character-table">
+          <tr>
+            <td>Name:</td>
+            <td id="name"></td>
+          </tr>
+          <tr>
+            <td>Birth year:</td>
+            <td id="birth-year"></td>
+          </tr>
+          <tr>
+            <td>Gender:</td>
+            <td id="gender"></td>
+          </tr>
+          <tr>
+            <td>Films:</td>
+            <td>
+              <ul id="films"></ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Homeworld:</td>
+            <td id="homeworld"></td>
+          </tr>
+          <tr>
+            <td>Species:</td>
+            <td id="species"></td>
+          </tr>
+        </table>
+        <button id="back-to-list">Hide details</button>
+      </div>
+    </main>
+  </body>
+</html>
