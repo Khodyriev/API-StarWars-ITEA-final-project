@@ -99,6 +99,7 @@ button {
 button:disabled {
   background-color: #96ccdf;
   color: rgb(167, 167, 167);
+  cursor: unset;
 }
 
 .character-details {
